@@ -1,0 +1,163 @@
+<template>
+  <div class="css-r8tze2 eu4oa1w0">
+    <div
+      data-testid="application-settings-sheet-header-image"
+      class="css-93v7zi eu4oa1w0"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 126 76"
+        aria-hidden="true"
+        data-testid="ipl-illustration-spot"
+        :style="{ width: width, height: height }"
+      >
+        <defs>
+          <filter id="ipl-illustrations-spot-:ro:-4" x="0%" y="0%">
+            <feTurbulence
+              baseFrequency="2.5"
+              numOctaves="4"
+              result="noise"
+              seed="14"
+            ></feTurbulence>
+            <feComponentTransfer in="noise" result="opacity">
+              <feFuncA slope="0.6" type="linear"></feFuncA>
+            </feComponentTransfer>
+            <feBlend
+              in="opacity"
+              in2="SourceGraphic"
+              mode="overlay"
+              result="blend"
+            ></feBlend>
+          </filter>
+          <filter
+            id="ipl-illustrations-spot-:ro:-3"
+            width="76.324"
+            height="46.489"
+            x="17.903"
+            y="17.981"
+            color-interpolation-filters="sRGB"
+            filterUnits="userSpaceOnUse"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+            <feColorMatrix
+              in="SourceAlpha"
+              result="hardAlpha"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            ></feColorMatrix>
+            <feOffset dx="0.5" dy="0.5"></feOffset>
+            <feGaussianBlur stdDeviation="0.25"></feGaussianBlur>
+            <feColorMatrix
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"
+            ></feColorMatrix>
+            <feBlend
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_4373_1809"
+            ></feBlend>
+            <feBlend
+              in="SourceGraphic"
+              in2="effect1_dropShadow_4373_1809"
+              result="shape"
+            ></feBlend>
+            <feColorMatrix
+              in="SourceAlpha"
+              result="hardAlpha"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            ></feColorMatrix>
+            <feOffset dx="1" dy="1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5"></feGaussianBlur>
+            <feComposite
+              in2="hardAlpha"
+              k2="-1"
+              k3="1"
+              operator="arithmetic"
+            ></feComposite>
+            <feColorMatrix
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"
+            ></feColorMatrix>
+            <feBlend in2="shape" result="effect2_innerShadow_4373_1809"></feBlend>
+          </filter>
+          <linearGradient
+            id="ipl-illustrations-spot-:ro:-2"
+            x1="55.565"
+            x2="59.04"
+            y1="16.1"
+            y2="68.118"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#237EA3"></stop>
+            <stop offset="1" stop-color="#1D465C"></stop>
+          </linearGradient>
+          <clipPath id="ipl-illustrations-spot-:ro:-1">
+            <path
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#fff"
+              d="M17.902 45.715C7.993 43.263.648 34.323.648 23.671.648 11.13 10.831.961 23.392.961c9.633 0 17.866 5.98 21.182 14.423h38.317c.767 0 1.395.885 1.395 1.966v.631h4.984a3.95 3.95 0 0 1 3.957 3.95v16.076c20.938 13.737 31.946 37.958 31.946 37.958H45.875c-1.796 0-3.225-1.01-3.347-2.262h3.59a2.425 2.425 0 0 1 .018-.522l1.333-9.71h3.06-28.67a3.95 3.95 0 0 1-3.957-3.951V45.715z"
+            ></path>
+          </clipPath>
+          <pattern
+            id="ipl-illustrations-spot-:ro:-0"
+            width="50"
+            height="40"
+            x="0"
+            y="0"
+            patternTransform="scale(.3)"
+            patternUnits="userSpaceOnUse"
+          >
+            <path d="M0 0h50v40H0z" filter="url(#ipl-illustrations-spot-:ro:-4)"></path>
+          </pattern>
+        </defs>
+        <g clip-path="url(#ipl-illustrations-spot-:ro:-1)">
+          <path
+            fill="#F39E78"
+            d="M23.393 46.381c12.56 0 22.743-10.167 22.743-22.71 0-12.542-10.182-22.71-22.743-22.71C10.832.962.649 11.13.649 23.672c0 12.543 10.183 22.71 22.744 22.71z"
+          ></path>
+          <path
+            fill="#7BC0AE"
+            d="M125.173 75.965s-21.837-48.047-62.497-47.177L46.154 75.965h79.019z"
+          ></path>
+          <path
+            fill="#003B47"
+            d="M64.532 63.47h-5.598A3.003 3.003 0 0 1 56 67.177a3.003 3.003 0 0 1-2.933-3.707h-5.599l-1.333 9.711a2.48 2.48 0 0 0-.018.522h19.765c.013-.17.007-.345-.018-.522l-1.333-9.71z"
+          ></path>
+          <g filter="url(#ipl-illustrations-spot-:ro:-3)">
+            <path
+              fill="url(#ipl-illustrations-spot-:ro:-2)"
+              d="M89.271 17.981H21.859a3.95 3.95 0 0 0-3.956 3.95V59.52a3.95 3.95 0 0 0 3.956 3.95h67.412a3.95 3.95 0 0 0 3.956-3.95V21.93a3.95 3.95 0 0 0-3.956-3.95z"
+            ></path>
+          </g>
+          <path fill="#61BFDC" d="M21.301 21.6v38.25h68.51V21.6h-68.51z"></path>
+          <path
+            fill="#00677A"
+            d="M42.529 73.703c.122 1.253 1.55 2.262 3.346 2.262h20.286c1.795 0 3.207-1.01 3.347-2.262h-26.98z"
+          ></path>
+          <path
+            fill="#fff"
+            d="M84.074 59.858H26.149a2.759 2.759 0 0 1-.018-.32V41.75c0-1.08.627-1.965 1.394-1.965h55.178c.766 0 1.394.884 1.394 1.965v17.79a3.03 3.03 0 0 1-.023.319zM82.892 37.104H27.715c-.767 0-1.395-.885-1.395-1.966V17.35c0-1.081.628-1.966 1.395-1.966h55.177c.767 0 1.394.885 1.394 1.966v17.788c-.017 1.081-.645 1.966-1.394 1.966z"
+          ></path>
+          <path
+            fill="#1F5F7B"
+            d="M55.352 19.591H32.87v2.31h22.482v-2.31zm5.481 24.279H32.861v2.31h27.972v-2.31zM32.87 49.039h22.482v2.31H32.87v-2.31z"
+          ></path>
+        </g>
+        <rect
+          clip-path="url(#ipl-illustrations-spot-:ro:-1)"
+          style="mix-blend-mode: overlay"
+          width="100%"
+          height="100%"
+          fill="url(#ipl-illustrations-spot-:ro:-0)"
+        ></rect>
+      </svg>
+    </div>
+  </div>
+</template>
+<script>
+export default {
+  props: ["height", "width"],
+  data() {
+    return {};
+  },
+};
+</script>
+
+<style lang="css" scoped></style>

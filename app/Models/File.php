@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+class File extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+        'name_file',  'format','url','secure_url','size','width','height','type_model','public_id','variants','duration'
+     ];
+     protected $casts = [
+        'variants' => 'array',
+    ];
+     public function fileable()
+     {
+         return $this->morphTo();
+     }
+
+     
+
+}

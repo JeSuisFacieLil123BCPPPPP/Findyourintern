@@ -1,0 +1,205 @@
+@import "~bulma/sass/utilities/_all";
+
+// Set your colors
+
+
+
+$bleue:  #24855a;// #42a5f5;
+$bleue-light: findLightColor($bleue);
+$bleue-dark: findDarkColor($bleue);
+$bleue-invert: findColorInvert($bleue);
+
+$link: $bleue;
+$link-light: $bleue-light;
+$link-invert: $bleue-invert;
+$link-dark:$bleue-dark;
+//$link-focus-border: $bleue;//!important;
+
+$primary: $bleue ;// #42a5f5;
+$primary-light: findLightColor($bleue);
+$primary-dark: findDarkColor($bleue);
+$primary-invert: findColorInvert($bleue);
+
+
+$menu-item-radius: 2px !important;
+$menu-item-hover-color : white !important;
+$menu-item-hover-background-color :#81C784 !important;
+$menu-list-line-height:25px !important;
+$menu-item-color: black !important;
+$menu-item-radius :5px !important;
+$menu-item-active-color :white !important;
+$menu-item-active-background-color :$bleue-invert !important;
+
+$custom-colors: null !default;
+$custom-shades: null !default;
+
+$colors: mergeColorMaps(
+  (
+   /* "white": (
+      $white,
+      $black,
+    ),
+    "black": (
+      $black,
+      $white,
+    ),
+    "light": (
+      $light,
+      $light-invert,
+    ),
+    "dark": (
+      $dark,
+      $dark-invert,
+    ),*/
+    "primary": (
+      $bleue,
+      $bleue-invert,
+      $bleue-light,
+      $bleue-dark,
+    ),
+    "link": (
+      $bleue,
+      $bleue-invert,
+      $bleue-light,
+      $bleue-dark,
+    ),
+    "info": (
+      $info,
+      $info-invert,
+      $info-light,
+      $info-dark,
+    ),
+    "default": (
+      $bleue,
+      $bleue-invert,
+      $bleue-light,
+      $bleue-dark,
+    ),
+    "success": (
+      #24855a,
+      $success-invert,
+      $success-light,
+      $success-dark,
+    ),
+   "warning": (
+      $warning,
+      $warning-invert,
+      $warning-light,
+      $warning-dark,
+    ),
+    "danger": (
+      $danger,
+      $danger-invert,
+      $danger-light,
+      $danger-dark,
+    ),
+    "bleue": (
+      $bleue,
+      $bleue-invert,
+      $bleue-light,
+      $bleue-dark,
+    ),
+   /* "bnoir": (
+      $bnoir,
+      $bnoir-invert,
+      $bnoir-light,
+      $bnoir-dark,
+    ),
+    "lvert": (
+      $lvert,
+      $lvert-invert,
+      $lvert-light,
+      $lvert-dark,
+    ),*/
+
+  ),
+  $custom-colors
+);
+
+// Links
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
+.div-left {
+  //background: radial-gradient(to left, #dbdbdb 50%, #7957d5 50%);
+  background: radial-gradient(circle at center, #e3f2fd, $bleue, #1e88e5 100%);
+}
+.login-title {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.input-login {
+  // border: 2px solid $bleue !important;
+}
+
+.input-login :focus {
+  border: 2px solid $bleue !important;
+  // color: $bleue;
+}
+.container-m{
+  margin-top:70px;
+}
+.vert{
+  color:  #24855a;/*hsl(153, 53%, 53%);*/
+}
+.jaune {
+color:#fdfd02;//hsl(44, 100%, 77%);
+}
+.rouge{
+  color: #f2062f;//hsl(14, 100%, 53%);
+}
+.vert-b{
+  background-color:  #24855a;/*hsl(153, 53%, 53%);*/
+}
+.jaune-b {
+  background-color:#fdfd02;//hsl(44, 100%, 77%);
+}
+.rouge-b{
+  background-color: #f2062f;//hsl(14, 100%, 53%);
+}
+/*.blanche-b-1{
+  background-color:
+}*/
+.noir{
+ color: #363636
+ //color:#8b8f93
+}
+.pays{
+  font-size:16px !important;
+}
+
+.mon-card_1{
+ // border-radius: 50px;
+  -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.label-text{
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu,
+  Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+}
+.bnoir{
+  color:#081351 !important;
+}
+
+.card-2{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  font-feature-settings: 'tnum';
+  position: relative;
+  background: #fff;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+//$tabs-toggle-link-focus-border-color
