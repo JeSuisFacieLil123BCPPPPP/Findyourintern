@@ -7,7 +7,7 @@ Vue.use(VueRouter)
 
 
 const Routes = [
-    {
+    /*{
         path: '/admin',
         component: () => import('../components/Layout/DashboardAdminLayout.vue'),
         name: 'admin',
@@ -56,7 +56,7 @@ const Routes = [
                 },
             },
         ]
-    },
+    },*/
     {
         path: '/moli',
         component: () => import('../components/ExampleComponent.vue'),
@@ -117,14 +117,6 @@ const Routes = [
                 path: 'accueil',
                 component: () => import('../components/Accueil.vue'),
                 name: 'accueil',
-                meta: {
-                    middleware: "guest",
-                },
-            },
-            {
-                path: 'register2',
-                component: () => import('../components/Register1.vue'),
-                name: 'register2',
                 meta: {
                     middleware: "guest",
                 },
